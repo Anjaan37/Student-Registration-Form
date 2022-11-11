@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightpink;
+}
+.container{
+    background-color: lightblue;
+    /* display: inline-block; */
+    padding: 20px;
+}
+input
+[type=text],input[type=password],textarea{
+    display: inline-block;
+    width: 100%;
+    padding: 6px;
+    border: none;
+    margin: 5px 0 12px 0;
+    background: rgb(247, 251, 252);
+}
+input
+[type=text]:focus,input[type=password]:focus{
+    background-color: orange;
+    /* outline: none; */
+}
+/* #submit{
+    width: 80%;
+} */
+hr{
+    margin-bottom: 25px;
+    border: 1px solid white;
+}
