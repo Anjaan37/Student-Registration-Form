@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="/Form2.css">
+
+</head>
+<body>
+    <form action="action.php/page">
+        <div class="container">
+            <h1>Student Registration Form </h1><hr>
+
+            First Name : 
+            <label for="">
+                <input type="text">
+            </label><br><br>
+            Middle Name : 
+            <label for="">
+                <input type="text">
+            </label>
+            Last Name :
+            <input type="text">
+
+            Course : 
+            <select name="" id="">
+                <option value="IT">IT</option>
+                <option value="cse">cse</option>
+                <option value="ece">ece</option>
+                <option value="ee">ee</option>
+                <option value="me">me</option>
+            </select>
+
+            Gender : 
+            <input type="radio" >Male
+            <input type="radio" >Female
+            <input type="radio" >Other
+
+            Phone :
+            <input type="tel" value="+91" size="2">
+            <input type="tel" size="10">
+
+            Current Address : 
+            <textarea name="address" id="add" cols="30" rows="10">Current Address</textarea>
+
+            Email<input type="email">
+
+            Password : 
+            <input type="password">
+            Re-password : 
+            <input type="password">
+
+            <input type="submit" id="submit">
+
+
+        </div>
+    </form>
+    
+    
+</body>
+</html>
